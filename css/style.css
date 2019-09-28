@@ -3,7 +3,11 @@
 body, html {
   padding: 0;
   margin: 0;
-  background: url('../img/background.png') no-repeat center top cover;
+  background: url('../img/background.png') no-repeat center top / cover;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* 1 screen */
@@ -12,9 +16,69 @@ body, html {
 
 }
 
+.head-title {
+  text-align: center;
+}
+
+.head-title__text {
+  font-size: 45px;
+  color: rgb( 255, 255, 255 );
+  margin: 0;
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
 /* 2 screen */
 
 .info {
+
+}
+
+.info-game {
+  width: 340px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.info-game__item {
+  width: 173px;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+}
+
+.info-game__item:last-child {
+  margin-bottom: 0;
+}
+
+.setting {
+  margin: 0 auto;
+}
+
+.setting__a {
+  padding-left: 82px;
+  padding-right: 82px;
+}
+
+.start__a {
+  padding-left: 82px;
+  padding-right: 82px;
+}
+
+.start {
+  margin: 0 auto;
+}
+
+.choose {
+
+}
+
+.choose-main {
+
+}
+
+.choose-main__item {
 
 }
 
