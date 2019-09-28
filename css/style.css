@@ -43,34 +43,42 @@ a {
 }
 
 .info-game__item {
-  width: 173px;
-  padding: 15px 30px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 213px;
+  text-align: center;
+}
+
+.info-game__settings_btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.info-game__settings {
   margin-bottom: 20px;
 }
 
-.info-game__item:last-child {
-  margin-bottom: 0;
+.info-game__start {
+
 }
 
-.setting {
-  margin: 0 auto;
+.info-game_btn {
+  width: 213px;
+  cursor: pointer;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  outline: none;
+  border: 0;
 }
 
-.setting__a {
-  padding-left: 82px;
-  padding-right: 82px;
-}
 
-.start__a {
-  padding-left: 82px;
-  padding-right: 82px;
-}
 
-.start {
-  margin: 0 auto;
-}
 
-.choose {
+
+/* .choose {
 
 }
 
@@ -80,7 +88,7 @@ a {
 
 .choose-main__item {
 
-}
+} */
 
 /* 3 screen */
 
