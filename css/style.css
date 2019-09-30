@@ -4,10 +4,15 @@ body, html {
   padding: 0;
   margin: 0;
   background: url('../img/background.png') no-repeat center top / cover;
+  height: 100%;
 }
 
 a {
   text-decoration: none;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #000;
 }
 
 /* 1 screen */
@@ -34,7 +39,7 @@ a {
 
 }
 
-.info-game {
+.form {
   width: 340px;
   margin: 0 auto;
   text-align: center;
@@ -42,10 +47,10 @@ a {
   padding-bottom: 20px;
 }
 
-.info-game__item {
+.form-game__item {
   display: block;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding-bottom: 15px;
   padding-top: 15px;
   width: 213px;
@@ -53,43 +58,20 @@ a {
   color: black;
 }
 
-.info-game__settings_btn {
-  display: block;
-  margin: 0 auto;
+.form-game__item:last-child {
+  margin-bottom: 0;
 }
 
-.info-game__settings {
-  margin-bottom: 20px;
-}
-
-.info-game__start {
-
-}
-
-.info-game_btn {
-  width: 213px;
+.form-game__btn {
   cursor: pointer;
-  padding-bottom: 15px;
-  padding-top: 15px;
   outline: none;
   border: 0;
+  transition: all 0.3s;
 }
 
-
-
-
-
-/* .choose {
-
+.form-game__btn:hover {
+  background: white;
 }
-
-.choose-main {
-
-}
-
-.choose-main__item {
-
-} */
 
 /* 3 screen */
 
