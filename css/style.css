@@ -56,6 +56,12 @@ input[type="text"]::-webkit-input-placeholder {
   width: 213px;
   text-align: center;
   color: black;
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 20px;
+  outline: none;
+  border: 0;
+  background: buttonface;
 }
 
 .form-game__item:last-child {
@@ -64,8 +70,6 @@ input[type="text"]::-webkit-input-placeholder {
 
 .form-game__btn {
   cursor: pointer;
-  outline: none;
-  border: 0;
   transition: all 0.3s;
 }
 
@@ -74,6 +78,19 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 3 screen */
+
+.Прямоугольник_1 {
+  background-color: rgb( 0, 0, 0 );
+  position: absolute;
+  left: 664px;
+  top: 230px;
+  width: 653px;
+  height: 687px;
+  z-index: 12;
+}
+
+
+
 
 .footer {
 
