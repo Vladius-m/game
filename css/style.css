@@ -15,17 +15,28 @@ input[type="text"]::-webkit-input-placeholder {
   color: #000;
 }
 
+input:focus::-webkit-input-placeholder {
+  color:transparent;
+  transition: all 0.3s;
+  
+}
+input:focus:-moz-placeholder {
+  color:transparent;
+}
+input:focus::-moz-placeholder {
+  color:transparent;
+}
+input:focus:-ms-input-placeholder {
+   color:transparent;
+  }
+
 /* 1 screen */
 
-.header {
-
-}
-
-.head-title {
+.header-title {
   text-align: center;
 }
 
-.head-title__text {
+.header-title__text {
   font-size: 45px;
   color: rgb( 255, 255, 255 );
   margin: 0;
@@ -35,11 +46,7 @@ input[type="text"]::-webkit-input-placeholder {
 
 /* 2 screen */
 
-.info {
-
-}
-
-.form {
+.form-game {
   width: 340px;
   margin: 0 auto;
   text-align: center;
@@ -62,6 +69,7 @@ input[type="text"]::-webkit-input-placeholder {
   outline: none;
   border: 0;
   background: buttonface;
+  border-radius: 15px 15px;
 }
 
 .form-game__item:last-child {
