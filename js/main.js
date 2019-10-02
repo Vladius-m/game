@@ -1,9 +1,9 @@
 $(document).ready(function() {
   $('#form__settings').click(function() {
-    $('.setteng').css('display', 'block');
+    $('.setting').css('display', 'block');
   });
 
-  $('.setting__icon').click(function() {
-    $('.setteng').css('display', 'none');
+  $('.setting__out').click(function() {
+    $('.setting').css('display', 'none');
   });
 });

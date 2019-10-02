@@ -101,7 +101,7 @@ input:focus:-ms-input-placeholder {
 
 /* Modal screen */
 
-.setteng {
+.setting {
   display: none;
   position: absolute;
   top: 50%;
@@ -120,16 +120,19 @@ input:focus:-ms-input-placeholder {
   margin-left: 15px;
 }
 
-.fa-times-circle.setting__icon {
+.setting__icon {
   display: flex;
   justify-content: flex-end;
+}
+
+.fa-times-circle.setting__out {
   font-size: 35px;
   cursor: pointer;
   opacity: 0.7;
   transition: all 0.3s;
 }
 
-.setting__icon:hover {
+.setting__out:hover {
   opacity: 1;
 }
 
@@ -138,6 +141,6 @@ input:focus:-ms-input-placeholder {
   font-size: 20px;
 }
 
-.setteng__text {
+.setting__text {
 
 }
