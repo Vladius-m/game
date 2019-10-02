@@ -5,6 +5,7 @@ body, html {
   margin: 0;
   background: url('../img/background.png') no-repeat center top / cover;
   height: 100%;
+  min-height: 500px;
 }
 
 a {
@@ -98,8 +99,45 @@ input:focus:-ms-input-placeholder {
   background: white;
 }
 
-/* 3 screen */
+/* Modal screen */
 
-.footer {
+.setteng {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background: dimgrey;
+  color: white;
+  transition: all 0.3s;
+}
+
+.setting__options {
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.fa-times-circle.setting__icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 35px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+.setting__icon:hover {
+  opacity: 1;
+}
+
+.setting__title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.setteng__text {
 
 }
